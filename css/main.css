@@ -1,0 +1,10 @@
+html {
+  margin: .3em;
+  line-height: 1.5;
+  background-color: #79756f;
+}
+
+/*idk*/
+header + h1 {
+  font-family: 'Bevan', cursive;
+}
