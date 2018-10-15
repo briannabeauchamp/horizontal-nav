@@ -1,14 +1,12 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5;
+  color: #fff;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
-}
-html {
-line-height: 1.5;
-color: #fff;
-font-family: sans-serif;
 }
 
 body {
@@ -44,7 +42,7 @@ h1 {
 
 .nav a {
   display: inline-block;
-  padding: 0.6em 0.75em;
+  padding: .6em .75em;
   border-radius: 4px;
   background-color: #713837;
   text-decoration: none;
