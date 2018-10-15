@@ -6,13 +6,17 @@ html {
   box-sizing: inherit;
 }
 html {
-font: normal 100%/1.5 Bevan, cursive;
 line-height: 1.5;
+color: #fff;
+font-family: sans-serif;
 }
 
 body {
   margin: 0;
   background-color: #dbd6cf;
+  color: #fff;
+  border-bottom: 3px solid #595652;
+  border-top: 3px solid #595652;
 }
 
 header {
@@ -22,15 +26,15 @@ header {
 }
 
 h1 {
-  margin: .3em;
+  margin: 0;
+  padding: 0;
   text-align: center;
-  font-family: sans-serif;
+  font-family: 'Bevan', cursive;
 }
 
 .nav {
   margin: .3em;
   padding: 0;
-  list-style-type: none;
   text-align: center;
 }
 
@@ -40,10 +44,13 @@ h1 {
 
 .nav a {
   display: inline-block;
-  padding: 0.5em 0.75em;
+  padding: 0.6em 0.75em;
   border-radius: 4px;
   background-color: #713837;
   text-decoration: none;
+  list-style-type: none;
+  color: #fff;
+  margin-top: .3em;
 }
 
 .nav a:hover {
